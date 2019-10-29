@@ -270,10 +270,10 @@
             this.TimeSet.BackColor = System.Drawing.Color.Silver;
             this.TimeSet.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.TimeSet.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TimeSet.Location = new System.Drawing.Point(681, 438);
+            this.TimeSet.Location = new System.Drawing.Point(686, 438);
             this.TimeSet.MaxLength = 3;
             this.TimeSet.Name = "TimeSet";
-            this.TimeSet.Size = new System.Drawing.Size(83, 37);
+            this.TimeSet.Size = new System.Drawing.Size(72, 37);
             this.TimeSet.TabIndex = 7;
             this.TimeSet.Text = "";
             this.TimeSet.TextChanged += new System.EventHandler(this.TimeSet_TextChanged);
@@ -319,7 +319,7 @@
             this.label15.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(770, 442);
+            this.label15.Location = new System.Drawing.Point(764, 444);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(28, 31);
             this.label15.TabIndex = 49;

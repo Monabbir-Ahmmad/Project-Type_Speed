@@ -30,7 +30,7 @@ namespace Project
         private void StartTest_Click(object sender, EventArgs e)
         {
 
-            if (TimeSet.Text != "" && ParagraphPaste.Text != "" && TimeSet.Text.All(char.IsDigit))
+            if (TimeSet.Text != "" && ParagraphPaste.Text != "" && TimeSet.Text.All(char.IsDigit) && int.Parse(TimeSet.Text) > 0)
             {
                 if (int.Parse(TimeSet.Text) > 0)
                 {
