@@ -21,10 +21,5 @@ namespace Project
         {
 
         }
-
-        private void FAQTextBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }

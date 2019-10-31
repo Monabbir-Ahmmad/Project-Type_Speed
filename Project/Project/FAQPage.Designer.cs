@@ -43,7 +43,6 @@
             this.FAQTextBox.Size = new System.Drawing.Size(737, 562);
             this.FAQTextBox.TabIndex = 11;
             this.FAQTextBox.Text = "This is FAQ";
-            this.FAQTextBox.TextChanged += new System.EventHandler(this.FAQTextBox_TextChanged);
             // 
             // FAQPage
             // 

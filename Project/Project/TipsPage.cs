@@ -22,10 +22,5 @@ namespace Project
         {
 
         }
-
-        private void TipsTextBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }

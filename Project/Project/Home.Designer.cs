@@ -66,7 +66,6 @@ namespace Project
             this.SidePanel.Name = "SidePanel";
             this.SidePanel.Size = new System.Drawing.Size(250, 672);
             this.SidePanel.TabIndex = 0;
-            this.SidePanel.Paint += new System.Windows.Forms.PaintEventHandler(this.SidePanel_Paint);
             // 
             // pictureBox1
             // 
@@ -351,6 +350,7 @@ namespace Project
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Mouse_Down);
             this.SidePanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

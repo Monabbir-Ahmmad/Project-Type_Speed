@@ -21,10 +21,5 @@ namespace Project
         {
 
         }
-
-        private void AboutTextBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }

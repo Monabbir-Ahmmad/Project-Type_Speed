@@ -43,7 +43,6 @@
             this.TipsTextBox.Size = new System.Drawing.Size(737, 562);
             this.TipsTextBox.TabIndex = 10;
             this.TipsTextBox.Text = "This is Tips";
-            this.TipsTextBox.TextChanged += new System.EventHandler(this.TipsTextBox_TextChanged);
             // 
             // TipsPage
             // 

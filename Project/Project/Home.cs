@@ -17,10 +17,14 @@ namespace Project
             InitializeComponent();
         }
 
-        protected override void OnMouseDown(MouseEventArgs e)
-
+        private void Form1_Load(object sender, EventArgs e)
         {
-            base.OnMouseDown(e);
+
+        }
+
+        private void Mouse_Down(object sender, MouseEventArgs e)
+        {
+            
             if (e.Button == MouseButtons.Left)
             {
                 this.Capture = false;
@@ -93,16 +97,6 @@ namespace Project
         {
             Hide_All();
             tipsPage1.Visible = true;
-
-        }
-
-        private void SidePanel_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
 
         }
 

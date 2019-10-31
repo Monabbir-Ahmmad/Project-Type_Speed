@@ -43,7 +43,6 @@
             this.AboutTextBox.Size = new System.Drawing.Size(737, 562);
             this.AboutTextBox.TabIndex = 9;
             this.AboutTextBox.Text = "This is About";
-            this.AboutTextBox.TextChanged += new System.EventHandler(this.AboutTextBox_TextChanged);
             // 
             // AboutPage
             // 
