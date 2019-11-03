@@ -127,7 +127,7 @@ namespace Project
             if (InputBox.TextLength == 0)
             {
                 ParagraphBox.SelectAll();
-                ParagraphBox.SelectionBackColor = Color.Transparent;
+                ParagraphBox.SelectionBackColor = System.Drawing.ColorTranslator.FromHtml("#F0F0F0");
             }
             else
             {
@@ -195,7 +195,7 @@ namespace Project
                 ParagraphBox.SelectionBackColor = Color.Red;
 
             ParagraphBox.Select(InputBox.TextLength, ParagraphBox.TextLength);
-            ParagraphBox.SelectionBackColor = Color.Transparent;
+            ParagraphBox.SelectionBackColor = System.Drawing.ColorTranslator.FromHtml("#F0F0F0");
             return;
         }
     }

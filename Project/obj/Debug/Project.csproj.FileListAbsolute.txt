@@ -35,3 +35,16 @@ C:\Users\User\documents\visual studio 2017\Projects\Project\Project\obj\Debug\Pr
 C:\Users\User\documents\visual studio 2017\Projects\Project\Project\obj\Debug\Project.csproj.GenerateResource.Cache
 C:\Users\User\documents\visual studio 2017\Projects\Project\Project\obj\Debug\Project.exe
 C:\Users\User\documents\visual studio 2017\Projects\Project\Project\obj\Debug\Project.pdb
+D:\GitHub\Project-Type_Speed\Project\Project\bin\Debug\Project.exe.config
+D:\GitHub\Project-Type_Speed\Project\Project\bin\Debug\Project.exe
+D:\GitHub\Project-Type_Speed\Project\Project\bin\Debug\Project.pdb
+D:\GitHub\Project-Type_Speed\Project\Project\obj\Debug\Project.AboutPage.resources
+D:\GitHub\Project-Type_Speed\Project\Project\obj\Debug\Project.CustomTestPage.resources
+D:\GitHub\Project-Type_Speed\Project\Project\obj\Debug\Project.FAQPage.resources
+D:\GitHub\Project-Type_Speed\Project\Project\obj\Debug\Project.Home.resources
+D:\GitHub\Project-Type_Speed\Project\Project\obj\Debug\Project.NormalTestPage.resources
+D:\GitHub\Project-Type_Speed\Project\Project\obj\Debug\Project.Properties.Resources.resources
+D:\GitHub\Project-Type_Speed\Project\Project\obj\Debug\Project.TipsPage.resources
+D:\GitHub\Project-Type_Speed\Project\Project\obj\Debug\Project.csproj.GenerateResource.Cache
+D:\GitHub\Project-Type_Speed\Project\Project\obj\Debug\Project.exe
+D:\GitHub\Project-Type_Speed\Project\Project\obj\Debug\Project.pdb

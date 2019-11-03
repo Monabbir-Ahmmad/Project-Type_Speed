@@ -70,7 +70,6 @@ namespace Project
             Hide_All();
             normalTestPage1.Visible = true;
             normalTestPage1.BringToFront();
-
         }
 
         private void CustomTest_Click(object sender, EventArgs e)
@@ -90,14 +89,12 @@ namespace Project
         {
             Hide_All();
             aboutPage1.Visible = true;
-
         }
 
         private void Tips_Click(object sender, EventArgs e)
         {
             Hide_All();
             tipsPage1.Visible = true;
-
         }
 
     }
