@@ -41,7 +41,7 @@ namespace Project
             WPMLB.Text = "0 wpm";
             MistypeLB.Text = "0";
             CharactersTypedLB.Text = "0";
-            
+            InputBox.Enabled = true;
             InputBox.Text = null;
             NTpanel.Visible = false;
             SidePanel.Visible = false;
@@ -116,13 +116,19 @@ namespace Project
 
             }
 
-            Mistype_Count();
         }
 
         //This is used for keeping track of number of characters typed and changes the Paragraph box text color depending on the character matching
         private void InputBox_TextChanged(object sender, EventArgs e)
         {
             CharactersTypedLB.Text = InputBox.Text.Length.ToString();
+
+            if (InputBox.TextLength == ParagraphBox.TextLength)
+            {
+                InputBox.Enabled = false;
+                timer1.Stop();
+            }
+            Mistype_Count();
 
             if (InputBox.TextLength == 0)
             {

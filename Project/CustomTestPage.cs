@@ -59,7 +59,7 @@ namespace Project
             WPMLB.Text = "0 wpm";
             MistypeLB.Text = "0";
             CharactersTypedLB.Text = "0";
-
+            InputBox.Enabled = true;
             InputBox.Text = null;
             CTpanel.Visible = false;
             SidePanel.Visible = false;
@@ -88,10 +88,10 @@ namespace Project
                 WPMLB.Text = wpm.ToString("0.##") + " wpm";
 
             }
-            Mistype_Count();
 
             if (seconds == time_limit)
             {
+                InputBox.Enabled = false;
                 timer1.Stop();
             }
         }
@@ -100,6 +100,13 @@ namespace Project
         private void InputBox_TextChanged(object sender, EventArgs e)
         {
             CharactersTypedLB.Text = InputBox.Text.Length.ToString();
+
+            if (InputBox.TextLength == ParagraphBox.TextLength)
+            {
+                InputBox.Enabled = false;
+                timer1.Stop();
+            }
+            Mistype_Count();
 
             if (InputBox.TextLength == 0)
             {
