@@ -38,7 +38,6 @@ namespace Project
                     SidePanel.Visible = true;
                     ParagraphBox.Text = ParagraphPaste.Text;
                     time_limit = int.Parse(TimeSet.Text);
-                    timer1.Start();
                 }
             }
 
@@ -101,12 +100,13 @@ namespace Project
         {
             CharactersTypedLB.Text = InputBox.Text.Length.ToString();
 
+            Mistype_Count();
+
             if (InputBox.TextLength == ParagraphBox.TextLength)
             {
                 InputBox.Enabled = false;
                 timer1.Stop();
             }
-            Mistype_Count();
 
             if (InputBox.TextLength == 0)
             {
@@ -115,8 +115,7 @@ namespace Project
             }
             else
             {
-                for (int i = 0; i < InputBox.TextLength; i++)
-                {
+                int i = InputBox.TextLength-1;
                     if (InputBox.Text[i].ToString() != ParagraphBox.Text[i].ToString())
                     {
                         ParagraphBox_Color_Change(i, "Red");
@@ -125,7 +124,6 @@ namespace Project
                     {
                         ParagraphBox_Color_Change(i, "Blue");
                     }
-                }
 
             }
         }
@@ -133,6 +131,7 @@ namespace Project
         //This stops the user from using the mouse inside the Input box
         private void InputBoxClick(object sender, EventArgs e)
         {
+            timer1.Start();
             InputBox.SelectionStart = InputBox.TextLength;
         }
 
@@ -146,11 +145,6 @@ namespace Project
         }
 
         private void ParagraphPaste_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void TimeSet_TextChanged(object sender, EventArgs e)
         {
 
         }

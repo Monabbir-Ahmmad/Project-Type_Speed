@@ -53,7 +53,6 @@ namespace Project
             ParagraphBox.Text = "Test 1 is easy";
             NTpanel.Visible = true;
             SidePanel.Visible = true;
-            timer1.Start();
         }
 
         //This is test2 button
@@ -62,7 +61,6 @@ namespace Project
             ParagraphBox.Text = "Test 2 is easy enough";
             NTpanel.Visible = true;
             SidePanel.Visible = true;
-            timer1.Start();
         }
 
         //This is test2 button
@@ -71,7 +69,6 @@ namespace Project
             ParagraphBox.Text = "Test 3 is average";
             NTpanel.Visible = true;
             SidePanel.Visible = true;
-            timer1.Start();
         }
 
         //This is test4 button
@@ -80,7 +77,6 @@ namespace Project
             ParagraphBox.Text = "Test 4 is hard";
             NTpanel.Visible = true;
             SidePanel.Visible = true;
-            timer1.Start();
         }
 
         //This is test5 button
@@ -89,7 +85,6 @@ namespace Project
             ParagraphBox.Text = "Test 5 is very hard";
             NTpanel.Visible = true;
             SidePanel.Visible = true;
-            timer1.Start();
         }
 
         //This is the timmer and the events related to it
@@ -122,14 +117,14 @@ namespace Project
         private void InputBox_TextChanged(object sender, EventArgs e)
         {
             CharactersTypedLB.Text = InputBox.Text.Length.ToString();
+            Mistype_Count();
 
             if (InputBox.TextLength == ParagraphBox.TextLength)
             {
                 InputBox.Enabled = false;
                 timer1.Stop();
             }
-            Mistype_Count();
-
+            
             if (InputBox.TextLength == 0)
             {
                 ParagraphBox.SelectAll();
@@ -137,8 +132,8 @@ namespace Project
             }
             else
             {
-                for (int i = 0; i < InputBox.TextLength; i++)
-                {
+                int i = InputBox.TextLength - 1;
+
                     if (InputBox.Text[i].ToString() != ParagraphBox.Text[i].ToString())
                     {
                         ParagraphBox_Color_Change(i, "Red");
@@ -147,7 +142,6 @@ namespace Project
                     {
                         ParagraphBox_Color_Change(i, "Blue");
                     }
-                }
             }
 
         }
@@ -155,6 +149,7 @@ namespace Project
         //This stops the user from using the mouse inside the Input box
         private void InputBoxClick(object sender, EventArgs e)
         {
+            timer1.Start();
             InputBox.SelectionStart = InputBox.TextLength;
         }
 
@@ -202,6 +197,7 @@ namespace Project
 
             ParagraphBox.Select(InputBox.TextLength, ParagraphBox.TextLength);
             ParagraphBox.SelectionBackColor = System.Drawing.ColorTranslator.FromHtml("#F0F0F0");
+
             return;
         }
     }

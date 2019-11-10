@@ -45,12 +45,12 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.TSidePanel = new System.Windows.Forms.Panel();
             this.Back1 = new Project.RoundButton();
-            this.TimeSet = new System.Windows.Forms.RichTextBox();
             this.ParagraphPaste = new System.Windows.Forms.RichTextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.StartTest = new Project.RoundButton();
+            this.TimeSet = new System.Windows.Forms.TextBox();
             this.CTpanel.SuspendLayout();
             this.SidePanel.SuspendLayout();
             this.TSidePanel.SuspendLayout();
@@ -264,20 +264,6 @@
             this.Back1.UseVisualStyleBackColor = false;
             this.Back1.Click += new System.EventHandler(this.Back1_Click);
             // 
-            // TimeSet
-            // 
-            this.TimeSet.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.TimeSet.BackColor = System.Drawing.Color.Silver;
-            this.TimeSet.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TimeSet.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TimeSet.Location = new System.Drawing.Point(686, 438);
-            this.TimeSet.MaxLength = 3;
-            this.TimeSet.Name = "TimeSet";
-            this.TimeSet.Size = new System.Drawing.Size(72, 37);
-            this.TimeSet.TabIndex = 7;
-            this.TimeSet.Text = "";
-            this.TimeSet.TextChanged += new System.EventHandler(this.TimeSet_TextChanged);
-            // 
             // ParagraphPaste
             // 
             this.ParagraphPaste.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
@@ -319,7 +305,7 @@
             this.label15.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(764, 444);
+            this.label15.Location = new System.Drawing.Point(783, 448);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(28, 31);
             this.label15.TabIndex = 49;
@@ -341,6 +327,19 @@
             this.StartTest.UseVisualStyleBackColor = false;
             this.StartTest.Click += new System.EventHandler(this.StartTest_Click);
             // 
+            // TimeSet
+            // 
+            this.TimeSet.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.TimeSet.BackColor = System.Drawing.Color.Silver;
+            this.TimeSet.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TimeSet.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TimeSet.Location = new System.Drawing.Point(668, 445);
+            this.TimeSet.MaxLength = 3;
+            this.TimeSet.Name = "TimeSet";
+            this.TimeSet.Size = new System.Drawing.Size(109, 34);
+            this.TimeSet.TabIndex = 52;
+            this.TimeSet.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // CustomTestPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -352,8 +351,8 @@
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.ParagraphPaste);
-            this.Controls.Add(this.TimeSet);
             this.Controls.Add(this.TSidePanel);
+            this.Controls.Add(this.TimeSet);
             this.Name = "CustomTestPage";
             this.Size = new System.Drawing.Size(1195, 632);
             this.Load += new System.EventHandler(this.CustomTestPage_Load);
@@ -382,12 +381,12 @@
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Panel TSidePanel;
         private RoundButton Back1;
-        private System.Windows.Forms.RichTextBox TimeSet;
         private System.Windows.Forms.RichTextBox ParagraphPaste;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
         private RoundButton StartTest;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox TimeSet;
     }
 }
