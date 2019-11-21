@@ -88,7 +88,7 @@
             this.InputBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.InputBox.BackColor = System.Drawing.Color.Silver;
             this.InputBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.InputBox.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.InputBox.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.InputBox.ForeColor = System.Drawing.Color.Black;
             this.InputBox.Location = new System.Drawing.Point(61, 452);
             this.InputBox.Name = "InputBox";

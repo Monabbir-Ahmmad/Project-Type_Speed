@@ -22,17 +22,22 @@ namespace Project
 
         }
 
+        //This is for moving the window with mouse
         private void Mouse_Down(object sender, MouseEventArgs e)
         {
-            
+
             if (e.Button == MouseButtons.Left)
             {
                 this.Capture = false;
                 Message msg = Message.Create(this.Handle, 0XA1, new IntPtr(2), IntPtr.Zero);
                 this.WndProc(ref msg);
+
+                if (WindowState == FormWindowState.Normal)
+                    MaximizeToNormal.Visible = false;
             }
         }
 
+        //This is a function that hide pages
         private void Hide_All()
         {
             faqPage1.Visible = false;
@@ -43,23 +48,27 @@ namespace Project
             return;
         }
 
+        //This is the exit button
         private void Exit_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
+        //This is the maximize window button
         private void Maximize_Click(object sender, EventArgs e)
         {
             WindowState = FormWindowState.Maximized;
             MaximizeToNormal.Visible = true;
         }
 
+        //This is the maximize to normal window button
         private void MaximizeToNormal_Click(object sender, EventArgs e)
         {
             WindowState = FormWindowState.Normal;
             MaximizeToNormal.Visible = false;
         }
 
+        //This is the minimize window button
         private void Minimize_Click(object sender, EventArgs e)
         {
             WindowState = FormWindowState.Minimized;

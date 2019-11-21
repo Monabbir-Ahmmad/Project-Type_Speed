@@ -307,7 +307,9 @@ namespace Project
             // 
             // tipsPage1
             // 
-            this.tipsPage1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.tipsPage1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tipsPage1.BackColor = System.Drawing.Color.White;
             this.tipsPage1.Location = new System.Drawing.Point(250, 40);
             this.tipsPage1.Name = "tipsPage1";
@@ -339,11 +341,11 @@ namespace Project
             this.Controls.Add(this.Exit);
             this.Controls.Add(this.TopBar);
             this.Controls.Add(this.SidePanel);
+            this.Controls.Add(this.faqPage1);
             this.Controls.Add(this.aboutPage1);
             this.Controls.Add(this.tipsPage1);
             this.Controls.Add(this.customTestPage1);
             this.Controls.Add(this.normalTestPage1);
-            this.Controls.Add(this.faqPage1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Home";

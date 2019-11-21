@@ -33,7 +33,7 @@
             // 
             // AboutTextBox
             // 
-            this.AboutTextBox.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.AboutTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.AboutTextBox.BackColor = System.Drawing.Color.Gainsboro;
             this.AboutTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.AboutTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

@@ -33,7 +33,7 @@
             // 
             // TipsTextBox
             // 
-            this.TipsTextBox.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.TipsTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.TipsTextBox.BackColor = System.Drawing.Color.Gainsboro;
             this.TipsTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.TipsTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
