@@ -62,3 +62,16 @@ D:\GitHub\Project-Type_Speed\Project\obj\Debug\Project.csproj.GenerateResource.C
 D:\GitHub\Project-Type_Speed\Project\obj\Debug\Project.exe
 D:\GitHub\Project-Type_Speed\Project\obj\Debug\Project.pdb
 D:\GitHub\Project-Type_Speed\Project\obj\Debug\Project.csprojResolveAssemblyReference.cache
+C:\Users\User\Downloads\Compressed\Project-Type_Speed-master\Project\bin\Debug\Project.exe.config
+C:\Users\User\Downloads\Compressed\Project-Type_Speed-master\Project\bin\Debug\Project.exe
+C:\Users\User\Downloads\Compressed\Project-Type_Speed-master\Project\bin\Debug\Project.pdb
+C:\Users\User\Downloads\Compressed\Project-Type_Speed-master\Project\obj\Debug\Project.AboutPage.resources
+C:\Users\User\Downloads\Compressed\Project-Type_Speed-master\Project\obj\Debug\Project.CustomTestPage.resources
+C:\Users\User\Downloads\Compressed\Project-Type_Speed-master\Project\obj\Debug\Project.FAQPage.resources
+C:\Users\User\Downloads\Compressed\Project-Type_Speed-master\Project\obj\Debug\Project.Home.resources
+C:\Users\User\Downloads\Compressed\Project-Type_Speed-master\Project\obj\Debug\Project.NormalTestPage.resources
+C:\Users\User\Downloads\Compressed\Project-Type_Speed-master\Project\obj\Debug\Project.Properties.Resources.resources
+C:\Users\User\Downloads\Compressed\Project-Type_Speed-master\Project\obj\Debug\Project.TipsPage.resources
+C:\Users\User\Downloads\Compressed\Project-Type_Speed-master\Project\obj\Debug\Project.csproj.GenerateResource.Cache
+C:\Users\User\Downloads\Compressed\Project-Type_Speed-master\Project\obj\Debug\Project.exe
+C:\Users\User\Downloads\Compressed\Project-Type_Speed-master\Project\obj\Debug\Project.pdb

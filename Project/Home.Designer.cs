@@ -62,18 +62,18 @@ namespace Project
             this.SidePanel.Controls.Add(this.CustomTest);
             this.SidePanel.Controls.Add(this.NormalTest);
             this.SidePanel.Dock = System.Windows.Forms.DockStyle.Left;
-            this.SidePanel.Location = new System.Drawing.Point(0, 0);
+            this.SidePanel.Location = new System.Drawing.Point(0, 10);
             this.SidePanel.Name = "SidePanel";
-            this.SidePanel.Size = new System.Drawing.Size(250, 672);
+            this.SidePanel.Size = new System.Drawing.Size(250, 662);
             this.SidePanel.TabIndex = 0;
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::Project.Properties.Resources.Logo;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(3, 30);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(244, 162);
+            this.pictureBox1.Size = new System.Drawing.Size(244, 103);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
@@ -89,7 +89,8 @@ namespace Project
             this.About.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.About.ForeColor = System.Drawing.Color.White;
             this.About.Image = global::Project.Properties.Resources.About;
-            this.About.Location = new System.Drawing.Point(0, 576);
+            this.About.Location = new System.Drawing.Point(0, 566);
+            this.About.Margin = new System.Windows.Forms.Padding(0);
             this.About.Name = "About";
             this.About.Size = new System.Drawing.Size(250, 96);
             this.About.TabIndex = 5;
@@ -110,7 +111,8 @@ namespace Project
             this.Tips.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Tips.ForeColor = System.Drawing.Color.White;
             this.Tips.Image = global::Project.Properties.Resources.Tips;
-            this.Tips.Location = new System.Drawing.Point(0, 474);
+            this.Tips.Location = new System.Drawing.Point(0, 470);
+            this.Tips.Margin = new System.Windows.Forms.Padding(0);
             this.Tips.Name = "Tips";
             this.Tips.Size = new System.Drawing.Size(250, 96);
             this.Tips.TabIndex = 4;
@@ -131,7 +133,8 @@ namespace Project
             this.FAQ.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FAQ.ForeColor = System.Drawing.Color.White;
             this.FAQ.Image = global::Project.Properties.Resources.FAQ;
-            this.FAQ.Location = new System.Drawing.Point(0, 372);
+            this.FAQ.Location = new System.Drawing.Point(0, 374);
+            this.FAQ.Margin = new System.Windows.Forms.Padding(0);
             this.FAQ.Name = "FAQ";
             this.FAQ.Size = new System.Drawing.Size(250, 96);
             this.FAQ.TabIndex = 3;
@@ -152,7 +155,8 @@ namespace Project
             this.CustomTest.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CustomTest.ForeColor = System.Drawing.Color.White;
             this.CustomTest.Image = global::Project.Properties.Resources.settings;
-            this.CustomTest.Location = new System.Drawing.Point(0, 270);
+            this.CustomTest.Location = new System.Drawing.Point(0, 278);
+            this.CustomTest.Margin = new System.Windows.Forms.Padding(0);
             this.CustomTest.Name = "CustomTest";
             this.CustomTest.Size = new System.Drawing.Size(250, 96);
             this.CustomTest.TabIndex = 2;
@@ -173,7 +177,8 @@ namespace Project
             this.NormalTest.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NormalTest.ForeColor = System.Drawing.Color.White;
             this.NormalTest.Image = ((System.Drawing.Image)(resources.GetObject("NormalTest.Image")));
-            this.NormalTest.Location = new System.Drawing.Point(0, 168);
+            this.NormalTest.Location = new System.Drawing.Point(0, 182);
+            this.NormalTest.Margin = new System.Windows.Forms.Padding(0);
             this.NormalTest.Name = "NormalTest";
             this.NormalTest.Size = new System.Drawing.Size(250, 96);
             this.NormalTest.TabIndex = 1;
@@ -187,10 +192,10 @@ namespace Project
             // 
             this.TopBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(63)))), ((int)(((byte)(152)))));
             this.TopBar.Dock = System.Windows.Forms.DockStyle.Top;
-            this.TopBar.Location = new System.Drawing.Point(250, 0);
+            this.TopBar.Location = new System.Drawing.Point(0, 0);
             this.TopBar.Margin = new System.Windows.Forms.Padding(0);
             this.TopBar.Name = "TopBar";
-            this.TopBar.Size = new System.Drawing.Size(945, 10);
+            this.TopBar.Size = new System.Drawing.Size(1195, 10);
             this.TopBar.TabIndex = 0;
             // 
             // Exit
@@ -335,17 +340,17 @@ namespace Project
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1195, 672);
+            this.Controls.Add(this.SidePanel);
             this.Controls.Add(this.MaximizeToNormal);
             this.Controls.Add(this.Maximize);
             this.Controls.Add(this.Minimize);
             this.Controls.Add(this.Exit);
-            this.Controls.Add(this.TopBar);
-            this.Controls.Add(this.SidePanel);
             this.Controls.Add(this.faqPage1);
             this.Controls.Add(this.aboutPage1);
             this.Controls.Add(this.tipsPage1);
             this.Controls.Add(this.customTestPage1);
             this.Controls.Add(this.normalTestPage1);
+            this.Controls.Add(this.TopBar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Home";
