@@ -97,7 +97,6 @@
             this.InputBox.Text = "";
             this.InputBox.Click += new System.EventHandler(this.InputBoxClick);
             this.InputBox.TextChanged += new System.EventHandler(this.InputBox_TextChanged);
-            this.InputBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.key_down);
             // 
             // SidePanel
             // 

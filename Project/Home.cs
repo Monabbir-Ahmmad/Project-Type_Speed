@@ -22,6 +22,19 @@ namespace Project
 
         }
 
+        //This disables the arrow keys
+        protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
+        {
+            if ((keyData == Keys.Right) || (keyData == Keys.Left) || (keyData == Keys.Up) || (keyData == Keys.Down))
+            {
+                return true;
+            }
+            else
+            {
+                return base.ProcessCmdKey(ref msg, keyData);
+            }
+        }
+
         //This is for moving the window with mouse
         private void Mouse_Down(object sender, MouseEventArgs e)
         {

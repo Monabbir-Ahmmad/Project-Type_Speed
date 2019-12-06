@@ -153,16 +153,6 @@ namespace Project
             InputBox.SelectionStart = InputBox.TextLength;
         }
 
-        //This stops the user from using spacific keys inside the Input box
-        private void key_down(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Delete || e.KeyCode == Keys.Left || e.KeyCode == Keys.Up)
-            {
-                e.SuppressKeyPress = true;
-            }
-
-        }
-
         //Function for counting mistypes
         private void Mistype_Count()
         {
