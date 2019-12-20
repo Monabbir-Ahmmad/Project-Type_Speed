@@ -85,7 +85,6 @@ namespace Project
                 float wpm = words_count / ((float)seconds / 60);
 
                 WPMLB.Text = wpm.ToString("0.##") + " wpm";
-
             }
 
             if (seconds == time_limit)
