@@ -1,0 +1,82 @@
+C:\Users\User\Documents\Type_Speed\Type_Speed\bin\Debug\Type_Speed.exe.config
+C:\Users\User\Documents\Type_Speed\Type_Speed\bin\Debug\Type_Speed.exe
+C:\Users\User\Documents\Type_Speed\Type_Speed\bin\Debug\Type_Speed.pdb
+C:\Users\User\Documents\Type_Speed\Type_Speed\obj\Debug\Type_Speed.Custom_Test_Page.resources
+C:\Users\User\Documents\Type_Speed\Type_Speed\obj\Debug\Type_Speed.Home_Page.resources
+C:\Users\User\Documents\Type_Speed\Type_Speed\obj\Debug\Type_Speed.Normal_Test_Page.resources
+C:\Users\User\Documents\Type_Speed\Type_Speed\obj\Debug\Type_Speed.Properties.Resources.resources
+C:\Users\User\Documents\Type_Speed\Type_Speed\obj\Debug\Type_Speed.Test_Page.resources
+C:\Users\User\Documents\Type_Speed\Type_Speed\obj\Debug\Type_Speed.csproj.GenerateResource.Cache
+C:\Users\User\Documents\Type_Speed\Type_Speed\obj\Debug\Type_Speed.exe
+C:\Users\User\Documents\Type_Speed\Type_Speed\obj\Debug\Type_Speed.pdb
+C:\Users\User\Documents\Visual Studio 2017\Projects\Type_Speed\Type_Speed\bin\Debug\Type_Speed.exe.config
+C:\Users\User\Documents\Visual Studio 2017\Projects\Type_Speed\Type_Speed\bin\Debug\Type_Speed.exe
+C:\Users\User\Documents\Visual Studio 2017\Projects\Type_Speed\Type_Speed\bin\Debug\Type_Speed.pdb
+C:\Users\User\Documents\Visual Studio 2017\Projects\Type_Speed\Type_Speed\obj\Debug\Type_Speed.Custom_Test_Page.resources
+C:\Users\User\Documents\Visual Studio 2017\Projects\Type_Speed\Type_Speed\obj\Debug\Type_Speed.Home_Page.resources
+C:\Users\User\Documents\Visual Studio 2017\Projects\Type_Speed\Type_Speed\obj\Debug\Type_Speed.Normal_Test_Page.resources
+C:\Users\User\Documents\Visual Studio 2017\Projects\Type_Speed\Type_Speed\obj\Debug\Type_Speed.Properties.Resources.resources
+C:\Users\User\Documents\Visual Studio 2017\Projects\Type_Speed\Type_Speed\obj\Debug\Type_Speed.Result_Page.resources
+C:\Users\User\Documents\Visual Studio 2017\Projects\Type_Speed\Type_Speed\obj\Debug\Type_Speed.Test_Page.resources
+C:\Users\User\Documents\Visual Studio 2017\Projects\Type_Speed\Type_Speed\obj\Debug\Type_Speed.csproj.GenerateResource.Cache
+C:\Users\User\Documents\Visual Studio 2017\Projects\Type_Speed\Type_Speed\obj\Debug\Type_Speed.exe
+C:\Users\User\Documents\Visual Studio 2017\Projects\Type_Speed\Type_Speed\obj\Debug\Type_Speed.pdb
+D:\Software engineering\Type_Speed(New)\Type_Speed\bin\Debug\Type_Speed.exe.config
+D:\Software engineering\Type_Speed(New)\Type_Speed\bin\Debug\Type_Speed.exe
+D:\Software engineering\Type_Speed(New)\Type_Speed\bin\Debug\Type_Speed.pdb
+D:\Software engineering\Type_Speed(New)\Type_Speed\obj\Debug\Type_Speed.Custom_Test_Page.resources
+D:\Software engineering\Type_Speed(New)\Type_Speed\obj\Debug\Type_Speed.Home_Page.resources
+D:\Software engineering\Type_Speed(New)\Type_Speed\obj\Debug\Type_Speed.Normal_Test_Page.resources
+D:\Software engineering\Type_Speed(New)\Type_Speed\obj\Debug\Type_Speed.Properties.Resources.resources
+D:\Software engineering\Type_Speed(New)\Type_Speed\obj\Debug\Type_Speed.Result_Page.resources
+D:\Software engineering\Type_Speed(New)\Type_Speed\obj\Debug\Type_Speed.Test_Page.resources
+D:\Software engineering\Type_Speed(New)\Type_Speed\obj\Debug\Type_Speed.csproj.GenerateResource.Cache
+D:\Software engineering\Type_Speed(New)\Type_Speed\obj\Debug\Type_Speed.exe
+D:\Software engineering\Type_Speed(New)\Type_Speed\obj\Debug\Type_Speed.pdb
+D:\Software engineering\Type_Speed(New)\Type_Speed\obj\Debug\Type_Speed.FAQ_Page.resources
+D:\Software engineering\Type_Speed(New)\Type_Speed\obj\Debug\Type_Speed.Tips_Page.resources
+D:\Software engineering\Type_Speed(New)\Type_Speed\obj\Debug\Type_Speed.About_Page.resources
+C:\Users\User\Documents\Visual Studio 2017\Projects\Type_Speed(New)\Type_Speed\bin\Debug\Type_Speed.exe.config
+C:\Users\User\Documents\Visual Studio 2017\Projects\Type_Speed(New)\Type_Speed\bin\Debug\Type_Speed.exe
+C:\Users\User\Documents\Visual Studio 2017\Projects\Type_Speed(New)\Type_Speed\bin\Debug\Type_Speed.pdb
+C:\Users\User\Documents\Visual Studio 2017\Projects\Type_Speed(New)\Type_Speed\obj\Debug\Type_Speed.About_Page.resources
+C:\Users\User\Documents\Visual Studio 2017\Projects\Type_Speed(New)\Type_Speed\obj\Debug\Type_Speed.Custom_Test_Page.resources
+C:\Users\User\Documents\Visual Studio 2017\Projects\Type_Speed(New)\Type_Speed\obj\Debug\Type_Speed.FAQ_Page.resources
+C:\Users\User\Documents\Visual Studio 2017\Projects\Type_Speed(New)\Type_Speed\obj\Debug\Type_Speed.Home_Page.resources
+C:\Users\User\Documents\Visual Studio 2017\Projects\Type_Speed(New)\Type_Speed\obj\Debug\Type_Speed.Properties.Resources.resources
+C:\Users\User\Documents\Visual Studio 2017\Projects\Type_Speed(New)\Type_Speed\obj\Debug\Type_Speed.Result_Page.resources
+C:\Users\User\Documents\Visual Studio 2017\Projects\Type_Speed(New)\Type_Speed\obj\Debug\Type_Speed.Test_Page.resources
+C:\Users\User\Documents\Visual Studio 2017\Projects\Type_Speed(New)\Type_Speed\obj\Debug\Type_Speed.Tips_Page.resources
+C:\Users\User\Documents\Visual Studio 2017\Projects\Type_Speed(New)\Type_Speed\obj\Debug\Type_Speed.csproj.GenerateResource.Cache
+C:\Users\User\Documents\Visual Studio 2017\Projects\Type_Speed(New)\Type_Speed\obj\Debug\Type_Speed.exe
+C:\Users\User\Documents\Visual Studio 2017\Projects\Type_Speed(New)\Type_Speed\obj\Debug\Type_Speed.pdb
+D:\GitHub\Project_Type_Speed_V2\Type_Speed(New)\Type_Speed\bin\Debug\Type_Speed.exe.config
+D:\GitHub\Project_Type_Speed_V2\Type_Speed(New)\Type_Speed\bin\Debug\Type_Speed.exe
+D:\GitHub\Project_Type_Speed_V2\Type_Speed(New)\Type_Speed\bin\Debug\Type_Speed.pdb
+D:\GitHub\Project_Type_Speed_V2\Type_Speed(New)\Type_Speed\obj\Debug\Type_Speed.csprojResolveAssemblyReference.cache
+D:\GitHub\Project_Type_Speed_V2\Type_Speed(New)\Type_Speed\obj\Debug\Type_Speed.About_Page.resources
+D:\GitHub\Project_Type_Speed_V2\Type_Speed(New)\Type_Speed\obj\Debug\Type_Speed.Custom_Test_Page.resources
+D:\GitHub\Project_Type_Speed_V2\Type_Speed(New)\Type_Speed\obj\Debug\Type_Speed.FAQ_Page.resources
+D:\GitHub\Project_Type_Speed_V2\Type_Speed(New)\Type_Speed\obj\Debug\Type_Speed.Home_Page.resources
+D:\GitHub\Project_Type_Speed_V2\Type_Speed(New)\Type_Speed\obj\Debug\Type_Speed.Properties.Resources.resources
+D:\GitHub\Project_Type_Speed_V2\Type_Speed(New)\Type_Speed\obj\Debug\Type_Speed.Result_Page.resources
+D:\GitHub\Project_Type_Speed_V2\Type_Speed(New)\Type_Speed\obj\Debug\Type_Speed.Test_Page.resources
+D:\GitHub\Project_Type_Speed_V2\Type_Speed(New)\Type_Speed\obj\Debug\Type_Speed.Tips_Page.resources
+D:\GitHub\Project_Type_Speed_V2\Type_Speed(New)\Type_Speed\obj\Debug\Type_Speed.csproj.GenerateResource.Cache
+D:\GitHub\Project_Type_Speed_V2\Type_Speed(New)\Type_Speed\obj\Debug\Type_Speed.exe
+D:\GitHub\Project_Type_Speed_V2\Type_Speed(New)\Type_Speed\obj\Debug\Type_Speed.pdb
+D:\GitHub\Project-Type_Speed\Type_Speed\bin\Debug\Type_Speed.exe.config
+D:\GitHub\Project-Type_Speed\Type_Speed\bin\Debug\Type_Speed.exe
+D:\GitHub\Project-Type_Speed\Type_Speed\bin\Debug\Type_Speed.pdb
+D:\GitHub\Project-Type_Speed\Type_Speed\obj\Debug\Type_Speed.csprojResolveAssemblyReference.cache
+D:\GitHub\Project-Type_Speed\Type_Speed\obj\Debug\Type_Speed.About_Page.resources
+D:\GitHub\Project-Type_Speed\Type_Speed\obj\Debug\Type_Speed.Custom_Test_Page.resources
+D:\GitHub\Project-Type_Speed\Type_Speed\obj\Debug\Type_Speed.FAQ_Page.resources
+D:\GitHub\Project-Type_Speed\Type_Speed\obj\Debug\Type_Speed.Home_Page.resources
+D:\GitHub\Project-Type_Speed\Type_Speed\obj\Debug\Type_Speed.Properties.Resources.resources
+D:\GitHub\Project-Type_Speed\Type_Speed\obj\Debug\Type_Speed.Result_Page.resources
+D:\GitHub\Project-Type_Speed\Type_Speed\obj\Debug\Type_Speed.Test_Page.resources
+D:\GitHub\Project-Type_Speed\Type_Speed\obj\Debug\Type_Speed.Tips_Page.resources
+D:\GitHub\Project-Type_Speed\Type_Speed\obj\Debug\Type_Speed.csproj.GenerateResource.Cache
+D:\GitHub\Project-Type_Speed\Type_Speed\obj\Debug\Type_Speed.exe
+D:\GitHub\Project-Type_Speed\Type_Speed\obj\Debug\Type_Speed.pdb
