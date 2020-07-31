@@ -1,14 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using System.IO;
-
+using System.Windows.Forms;
 
 namespace Type_Speed
 {
@@ -80,7 +72,7 @@ namespace Type_Speed
                 Maximize.Text = "❐";
             }
 
-           else if (WindowState == FormWindowState.Maximized)
+            else if (WindowState == FormWindowState.Maximized)
             {
                 WindowState = FormWindowState.Normal;
                 Maximize.Text = "☐";
@@ -100,7 +92,7 @@ namespace Type_Speed
             test_Page1.BringToFront();
             test_Page1.Focus();
 
-            Random_Test();  
+            Random_Test();
         }
 
         private void CustomTest_Click(object sender, EventArgs e)

@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Drawing;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Type_Speed
@@ -109,11 +103,11 @@ namespace Type_Speed
             seconds++;
 
             if ((time_limit - seconds) < 10)
-                TimeLB.Text = "00" + (time_limit-seconds).ToString() + " s";
+                TimeLB.Text = "00" + (time_limit - seconds).ToString() + " s";
             else if ((time_limit - seconds) < 100)
                 TimeLB.Text = "0" + (time_limit - seconds).ToString() + " s";
             else
-                TimeLB.Text = (time_limit-seconds).ToString() + " s";
+                TimeLB.Text = (time_limit - seconds).ToString() + " s";
 
 
 

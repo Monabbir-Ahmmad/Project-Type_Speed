@@ -92,6 +92,7 @@
     <Compile Include="Tips_Page.Designer.cs">
       <DependentUpon>Tips_Page.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserData.cs" />
     <EmbeddedResource Include="About_Page.resx">
       <DependentUpon>About_Page.cs</DependentUpon>
     </EmbeddedResource>

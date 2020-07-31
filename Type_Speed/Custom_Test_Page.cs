@@ -1,13 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Drawing;
-using System.Data;
+using System.IO;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.IO;
 
 namespace Type_Speed
 {
@@ -41,7 +36,7 @@ namespace Type_Speed
             else if (ParagraphPasteBox.TextLength < 30)
                 MessageBox.Show("The paragraph is too small. Required minimum character length is 30");
 
-           else if (TimeSet.Text != "" && ParagraphPasteBox.Text != "" && ParagraphPasteBox.TextLength >= 30)
+            else if (TimeSet.Text != "" && ParagraphPasteBox.Text != "" && ParagraphPasteBox.TextLength >= 30)
             {
                 if (TimeSet.Text.All(char.IsDigit) && int.Parse(TimeSet.Text) > 0)
                 {
